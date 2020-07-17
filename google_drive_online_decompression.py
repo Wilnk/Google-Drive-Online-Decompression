@@ -50,6 +50,8 @@ files = "" #@param {type:"string"}
 
 password = "" #@param {type:"string"}
 
+print("若没有设置密码则直接回车即可")
+
 !unrar x -p"$password" -o+ "$destination" "$files"
 
 """## 批量解压RAR"""
@@ -111,6 +113,8 @@ files = "" #@param {type:"string"}
 
 password = "" #@param {type:"string"}
 
+print("若没有设置密码则直接回车即可")
+
 !7z x -aoa "$destination" -P"$password" -o"$files"
 
 """## 批量解压ZIP"""
@@ -128,6 +132,8 @@ files = "" #@param {type:"string"}
 #@markdown <font size="4" color=red><b>password</b></font>  解压密码（有就填写没有就不填，因为是批量！所以必须密码是统一的，否则必定报错！！！）
 
 password = "" #@param {type:"string"}
+
+print("若没有设置密码则直接回车即可")
 
 !7z x -aoa "$destination/*.zip" -P"$password" -o"$files"
 
@@ -170,6 +176,8 @@ files = "" #@param {type:"string"}
 
 password = "" #@param {type:"string"}
 
+print("若没有设置密码则直接回车即可")
+
 !7z x -aoa "$destination" -P"$password" -r -o"$files"
 
 """## 批量解压7z"""
@@ -187,6 +195,8 @@ files = "" #@param {type:"string"}
 #@markdown <font size="4" color=red><b>password</b></font>  压缩密码（有就填写没有就不填，因为是批量！所以必须密码是统一的，否则必定报错！！！）
 
 password = "" #@param {type:"string"}
+
+print("若没有设置密码则直接回车即可")
 
 !7z x -aoa "$destination/*.7z" -P"$password" -o"$files"
 
