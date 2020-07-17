@@ -5,27 +5,35 @@
 
 使用方法：
 
-​		1.连接Google Colab登入Google账号 绑定Google Drive授权
+1. 打开Google Colab官网： https://colab.research.google.com/ 
 
-![avatar](img/20200717120303.png)
 
-​		
 
-​		2.获取Google Drive 的信息
+ 2. 打开文件-上传（Google_Drive_Online_Decompression.ipynb）	提示登入 登入即可。
 
-![avatar](/img/20200717120621.png)
+    ![avatar](/img/20200717124553.png)
 
-​	3.获取你要解压的文件（文件夹）路径
+    
 
-​		 直接复制路径即可
+ 3. ​	连接Google Colab登入Google账号 绑定Google Drive授权
 
-![avatar](/img/20200717120656.png)
+    ![avatar](/img/20200717120303.png)
 
-​	
+    
 
-​	4.按你的需求填入相对应的信息 ，然后运行即可。
+ 4. 获取Google Drive 的信息
 
-Demo
+    ![avatar](/img/20200717120621.png)
+
+ 5. 获取你要解压的文件（文件夹）路径
+
+     直接复制路径即可
+
+    ![avatar](/img/20200717120656.png)
+
+ 6. 按你的需求填入相对应的信息 ，然后运行即可。
+
+# Demo
 
 ![avatar](/img/20200717122938.png)
 
