@@ -3,9 +3,15 @@
 
 可以解压市面上百分之90%的压缩格式。压缩功能还在考虑，看大家需求吧，如果要的话我在写。
 
+如果好用的话麻烦点一下右上角的Start 谢谢
+
 使用方法：
 
-1. 打开Google Colab官网： https://colab.research.google.com/ 
+1. 代码拖到本地，打开Google Colab官网： https://colab.research.google.com/ 
+
+```
+git clone https://github.com/Wilnk/Google-Drive-Online-Decompression
+```
 
 
 
@@ -32,6 +38,8 @@
     ![avatar](/img/20200717120656.png)
 
  6. 按你的需求填入相对应的信息 ，然后运行即可。
+
+     
 
 # Demo
 
